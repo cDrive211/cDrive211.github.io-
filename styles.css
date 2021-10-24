@@ -1,0 +1,145 @@
+body {
+    font-family: Source Sans Pro, sans-serif;
+}
+
+section {
+    background-color: #C5D4DD;
+}
+
+.hero {
+    background-color: #232C33;
+    height: 100vh;
+    color: white;
+    font-size: 40px;
+}
+
+footer {
+    
+    background-color: #232C33;
+    color: white;
+    text-align: center;
+    padding: 80px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    width: 500px;
+    justify-content: space-between;
+    font-size: 40px;
+}
+
+li {
+    /* width: 200px; */
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 90px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+p {
+    margin: 0;
+    margin-top: 20px;
+    font-weight: 300px;
+}
+
+.hero-area {
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-text {
+    margin-left: 80px;
+    margin-bottom: 200px;
+}
+
+.button {
+    width: 200px;
+    height: 55px;
+    border-radius: 27px;
+    background-color: #5A7D7C;
+    text-align: center;
+    padding-top: 5px;
+    margin-top: 20px;
+}
+
+.button:hover {
+    background-color: #7DA1A0;
+}
+
+.button:active {
+    background: darkgray;
+    color: #808080;
+}
+
+.socials {
+    padding-bottom: 200px;
+}
+
+.social {
+    margin: 10px;
+}
+
+.logo {
+    height: 80px;
+    margin: 30px;
+}
+
+.sub-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+}
+
+.sub-section-alt {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px;
+}
+
+.headshot {
+    width: 400px;
+    border-radius: 150px;
+}
+
+.headshot-container {
+    display: flex;
+    align-items: center;
+}
+
+@media only screen and (max-width: 1000px) {
+    .project-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+.project-card {
+    width: 300px;
+    height: 500px;
+    border: 1px solid black;
+}
+
+.project-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
